@@ -1,0 +1,19 @@
+{
+  "floors": [
+    {
+      "id": "ground",
+      "name": "الدور الأرضي",
+      "order": 0,
+      "demo": true
+    }
+  ],
+  "facilities": [
+    {
+      "code": "G-01",
+      "name": "قاعة تجريبية 1",
+      "type": "room",
+      "floorId": "ground",
+      "demo": true
+    }
+  ]
+}

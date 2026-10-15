@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  src: url('/fonts/NotoKufiArabic-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  src: url('/fonts/NotoKufiArabic-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg-color: #f8fafc;
+  --text-color: #0f172a;
+  --muted-color: #475569;
+  --accent-color: #0284c7;
+  --demo-bg: #fef3c7;
+  --demo-text: #92400e;
+  --demo-border: #f59e0b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Kufi Arabic', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  direction: rtl;
+  text-align: right;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+}
+
+.demo-banner {
+  background-color: var(--demo-bg);
+  color: var(--demo-text);
+  border-bottom: 2px solid var(--demo-border);
+  text-align: center;
+  padding: 0.65rem 1rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.25rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 0.75rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--muted-color);
+  max-width: 28rem;
+}
