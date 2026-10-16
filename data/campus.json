@@ -4,15 +4,2556 @@
       "id": "ground",
       "name": "الدور الأرضي",
       "order": 0,
+      "mapImage": "maps/floor-ground.webp",
+      "width": 1000,
+      "height": 1000,
+      "attribution": "© خريطة مبنى الكلية — الدور الأرضي",
+      "scale": {
+        "p1": {
+          "x": 175,
+          "y": 525
+        },
+        "p2": {
+          "x": 915,
+          "y": 525
+        },
+        "distanceMeters": 74.0
+      },
+      "demo": true
+    },
+    {
+      "id": "first",
+      "name": "الدور الأول",
+      "order": 1,
+      "mapImage": "maps/floor-first.webp",
+      "width": 1000,
+      "height": 1000,
+      "attribution": "© خريطة مبنى الكلية — الدور الأول",
+      "scale": {
+        "p1": {
+          "x": 175,
+          "y": 525
+        },
+        "p2": {
+          "x": 915,
+          "y": 525
+        },
+        "distanceMeters": 74.0
+      },
+      "demo": true
+    },
+    {
+      "id": "second",
+      "name": "الدور الثاني",
+      "order": 2,
+      "mapImage": "maps/floor-second.webp",
+      "width": 1000,
+      "height": 1000,
+      "attribution": "© خريطة مبنى الكلية — الدور الثاني",
+      "scale": {
+        "p1": {
+          "x": 175,
+          "y": 525
+        },
+        "p2": {
+          "x": 915,
+          "y": 525
+        },
+        "distanceMeters": 74.0
+      },
+      "demo": true
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ground-n-175-350",
+      "floorId": "ground",
+      "x": 175,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-175-525",
+      "floorId": "ground",
+      "x": 175,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-175-620",
+      "floorId": "ground",
+      "x": 175,
+      "y": 620,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-305-250",
+      "floorId": "ground",
+      "x": 305,
+      "y": 250,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-305-350",
+      "floorId": "ground",
+      "x": 305,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-305-525",
+      "floorId": "ground",
+      "x": 305,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-305-680",
+      "floorId": "ground",
+      "x": 305,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-505-130",
+      "floorId": "ground",
+      "x": 505,
+      "y": 130,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-505-210",
+      "floorId": "ground",
+      "x": 505,
+      "y": 210,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-505-350",
+      "floorId": "ground",
+      "x": 505,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-505-525",
+      "floorId": "ground",
+      "x": 505,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-505-680",
+      "floorId": "ground",
+      "x": 505,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-505-800",
+      "floorId": "ground",
+      "x": 505,
+      "y": 800,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-675-210",
+      "floorId": "ground",
+      "x": 675,
+      "y": 210,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-675-350",
+      "floorId": "ground",
+      "x": 675,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-675-525",
+      "floorId": "ground",
+      "x": 675,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-675-680",
+      "floorId": "ground",
+      "x": 675,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-675-800",
+      "floorId": "ground",
+      "x": 675,
+      "y": 800,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-915-210",
+      "floorId": "ground",
+      "x": 915,
+      "y": 210,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-915-350",
+      "floorId": "ground",
+      "x": 915,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-915-525",
+      "floorId": "ground",
+      "x": 915,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-915-680",
+      "floorId": "ground",
+      "x": 915,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-n-915-840",
+      "floorId": "ground",
+      "x": 915,
+      "y": 840,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-01",
+      "floorId": "ground",
+      "x": 175,
+      "y": 320,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-02",
+      "floorId": "ground",
+      "x": 175,
+      "y": 645,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-03",
+      "floorId": "ground",
+      "x": 305,
+      "y": 225,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-04",
+      "floorId": "ground",
+      "x": 275,
+      "y": 350,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-05",
+      "floorId": "ground",
+      "x": 505,
+      "y": 105,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-06",
+      "floorId": "ground",
+      "x": 675,
+      "y": 185,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-07",
+      "floorId": "ground",
+      "x": 945,
+      "y": 210,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-08",
+      "floorId": "ground",
+      "x": 945,
+      "y": 350,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-09",
+      "floorId": "ground",
+      "x": 505,
+      "y": 825,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-G-10",
+      "floorId": "ground",
+      "x": 675,
+      "y": 825,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-STAIR-E-G",
+      "floorId": "ground",
+      "x": 945,
+      "y": 525,
+      "kind": "stairs",
+      "demo": true
+    },
+    {
+      "id": "ground-door-STAIR-W-G",
+      "floorId": "ground",
+      "x": 275,
+      "y": 525,
+      "kind": "stairs",
+      "demo": true
+    },
+    {
+      "id": "ground-door-ELEV-1-G",
+      "floorId": "ground",
+      "x": 480,
+      "y": 500,
+      "kind": "elevator",
+      "demo": true
+    },
+    {
+      "id": "ground-door-WC-M-G",
+      "floorId": "ground",
+      "x": 305,
+      "y": 705,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-WC-W-G",
+      "floorId": "ground",
+      "x": 675,
+      "y": 655,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-PRAYER-G",
+      "floorId": "ground",
+      "x": 675,
+      "y": 495,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "ground-door-ENT-MAIN",
+      "floorId": "ground",
+      "x": 915,
+      "y": 870,
+      "kind": "entrance",
+      "demo": true
+    },
+    {
+      "id": "ground-door-ENT-WEST",
+      "floorId": "ground",
+      "x": 135,
+      "y": 525,
+      "kind": "entrance",
+      "demo": true
+    },
+    {
+      "id": "first-n-175-350",
+      "floorId": "first",
+      "x": 175,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-175-525",
+      "floorId": "first",
+      "x": 175,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-175-620",
+      "floorId": "first",
+      "x": 175,
+      "y": 620,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-305-250",
+      "floorId": "first",
+      "x": 305,
+      "y": 250,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-305-350",
+      "floorId": "first",
+      "x": 305,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-305-525",
+      "floorId": "first",
+      "x": 305,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-305-680",
+      "floorId": "first",
+      "x": 305,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-505-130",
+      "floorId": "first",
+      "x": 505,
+      "y": 130,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-505-210",
+      "floorId": "first",
+      "x": 505,
+      "y": 210,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-505-350",
+      "floorId": "first",
+      "x": 505,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-505-525",
+      "floorId": "first",
+      "x": 505,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-505-680",
+      "floorId": "first",
+      "x": 505,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-505-800",
+      "floorId": "first",
+      "x": 505,
+      "y": 800,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-675-210",
+      "floorId": "first",
+      "x": 675,
+      "y": 210,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-675-350",
+      "floorId": "first",
+      "x": 675,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-675-525",
+      "floorId": "first",
+      "x": 675,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-675-680",
+      "floorId": "first",
+      "x": 675,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-675-800",
+      "floorId": "first",
+      "x": 675,
+      "y": 800,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-915-210",
+      "floorId": "first",
+      "x": 915,
+      "y": 210,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-915-350",
+      "floorId": "first",
+      "x": 915,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-915-525",
+      "floorId": "first",
+      "x": 915,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-915-680",
+      "floorId": "first",
+      "x": 915,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-n-915-840",
+      "floorId": "first",
+      "x": 915,
+      "y": 840,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-01",
+      "floorId": "first",
+      "x": 175,
+      "y": 320,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-02",
+      "floorId": "first",
+      "x": 175,
+      "y": 645,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-03",
+      "floorId": "first",
+      "x": 305,
+      "y": 225,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-04",
+      "floorId": "first",
+      "x": 275,
+      "y": 350,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-05",
+      "floorId": "first",
+      "x": 505,
+      "y": 105,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-06",
+      "floorId": "first",
+      "x": 675,
+      "y": 185,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-07",
+      "floorId": "first",
+      "x": 945,
+      "y": 210,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-08",
+      "floorId": "first",
+      "x": 945,
+      "y": 350,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-09",
+      "floorId": "first",
+      "x": 505,
+      "y": 825,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-F1-10",
+      "floorId": "first",
+      "x": 675,
+      "y": 825,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-STAIR-E-F1",
+      "floorId": "first",
+      "x": 945,
+      "y": 525,
+      "kind": "stairs",
+      "demo": true
+    },
+    {
+      "id": "first-door-STAIR-W-F1",
+      "floorId": "first",
+      "x": 275,
+      "y": 525,
+      "kind": "stairs",
+      "demo": true
+    },
+    {
+      "id": "first-door-ELEV-1-F1",
+      "floorId": "first",
+      "x": 480,
+      "y": 500,
+      "kind": "elevator",
+      "demo": true
+    },
+    {
+      "id": "first-door-WC-M-F1",
+      "floorId": "first",
+      "x": 305,
+      "y": 705,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "first-door-WC-W-F1",
+      "floorId": "first",
+      "x": 675,
+      "y": 655,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-n-175-350",
+      "floorId": "second",
+      "x": 175,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-175-525",
+      "floorId": "second",
+      "x": 175,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-175-620",
+      "floorId": "second",
+      "x": 175,
+      "y": 620,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-305-250",
+      "floorId": "second",
+      "x": 305,
+      "y": 250,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-305-350",
+      "floorId": "second",
+      "x": 305,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-305-525",
+      "floorId": "second",
+      "x": 305,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-305-680",
+      "floorId": "second",
+      "x": 305,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-505-130",
+      "floorId": "second",
+      "x": 505,
+      "y": 130,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-505-210",
+      "floorId": "second",
+      "x": 505,
+      "y": 210,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-505-350",
+      "floorId": "second",
+      "x": 505,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-505-525",
+      "floorId": "second",
+      "x": 505,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-505-680",
+      "floorId": "second",
+      "x": 505,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-505-800",
+      "floorId": "second",
+      "x": 505,
+      "y": 800,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-675-210",
+      "floorId": "second",
+      "x": 675,
+      "y": 210,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-675-350",
+      "floorId": "second",
+      "x": 675,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-675-525",
+      "floorId": "second",
+      "x": 675,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-675-680",
+      "floorId": "second",
+      "x": 675,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-675-800",
+      "floorId": "second",
+      "x": 675,
+      "y": 800,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-915-210",
+      "floorId": "second",
+      "x": 915,
+      "y": 210,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-915-350",
+      "floorId": "second",
+      "x": 915,
+      "y": 350,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-915-525",
+      "floorId": "second",
+      "x": 915,
+      "y": 525,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-915-680",
+      "floorId": "second",
+      "x": 915,
+      "y": 680,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-n-915-840",
+      "floorId": "second",
+      "x": 915,
+      "y": 840,
+      "kind": "junction",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-01",
+      "floorId": "second",
+      "x": 175,
+      "y": 320,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-02",
+      "floorId": "second",
+      "x": 175,
+      "y": 645,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-03",
+      "floorId": "second",
+      "x": 305,
+      "y": 225,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-04",
+      "floorId": "second",
+      "x": 275,
+      "y": 350,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-05",
+      "floorId": "second",
+      "x": 505,
+      "y": 105,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-06",
+      "floorId": "second",
+      "x": 675,
+      "y": 185,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-07",
+      "floorId": "second",
+      "x": 945,
+      "y": 210,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-08",
+      "floorId": "second",
+      "x": 945,
+      "y": 350,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-09",
+      "floorId": "second",
+      "x": 505,
+      "y": 825,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-F2-10",
+      "floorId": "second",
+      "x": 675,
+      "y": 825,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-STAIR-E-F2",
+      "floorId": "second",
+      "x": 945,
+      "y": 525,
+      "kind": "stairs",
+      "demo": true
+    },
+    {
+      "id": "second-door-STAIR-W-F2",
+      "floorId": "second",
+      "x": 275,
+      "y": 525,
+      "kind": "stairs",
+      "demo": true
+    },
+    {
+      "id": "second-door-ELEV-1-F2",
+      "floorId": "second",
+      "x": 480,
+      "y": 500,
+      "kind": "elevator",
+      "demo": true
+    },
+    {
+      "id": "second-door-WC-M-F2",
+      "floorId": "second",
+      "x": 305,
+      "y": 705,
+      "kind": "door",
+      "demo": true
+    },
+    {
+      "id": "second-door-WC-W-F2",
+      "floorId": "second",
+      "x": 675,
+      "y": 655,
+      "kind": "door",
+      "demo": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "ground-e-1",
+      "floorId": "ground",
+      "from": "ground-n-505-210",
+      "to": "ground-n-675-210",
+      "computedLengthMeters": 17.0,
+      "demo": true,
+      "manualLengthMeters": 17.0
+    },
+    {
+      "id": "ground-e-2",
+      "floorId": "ground",
+      "from": "ground-n-675-210",
+      "to": "ground-n-915-210",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-3",
+      "floorId": "ground",
+      "from": "ground-n-305-350",
+      "to": "ground-n-505-350",
+      "computedLengthMeters": 20.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-4",
+      "floorId": "ground",
+      "from": "ground-n-675-350",
+      "to": "ground-n-915-350",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-5",
+      "floorId": "ground",
+      "from": "ground-n-175-525",
+      "to": "ground-n-305-525",
+      "computedLengthMeters": 13.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-6",
+      "floorId": "ground",
+      "from": "ground-n-305-525",
+      "to": "ground-n-505-525",
+      "computedLengthMeters": 20.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-7",
+      "floorId": "ground",
+      "from": "ground-n-505-525",
+      "to": "ground-n-675-525",
+      "computedLengthMeters": 17.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-8",
+      "floorId": "ground",
+      "from": "ground-n-675-525",
+      "to": "ground-n-915-525",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-9",
+      "floorId": "ground",
+      "from": "ground-n-305-680",
+      "to": "ground-n-505-680",
+      "computedLengthMeters": 20.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-10",
+      "floorId": "ground",
+      "from": "ground-n-505-680",
+      "to": "ground-n-675-680",
+      "computedLengthMeters": 17.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-11",
+      "floorId": "ground",
+      "from": "ground-n-675-680",
+      "to": "ground-n-915-680",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-12",
+      "floorId": "ground",
+      "from": "ground-n-175-350",
+      "to": "ground-n-175-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-13",
+      "floorId": "ground",
+      "from": "ground-n-175-525",
+      "to": "ground-n-175-620",
+      "computedLengthMeters": 9.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-14",
+      "floorId": "ground",
+      "from": "ground-n-305-250",
+      "to": "ground-n-305-350",
+      "computedLengthMeters": 10.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-15",
+      "floorId": "ground",
+      "from": "ground-n-305-350",
+      "to": "ground-n-305-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-16",
+      "floorId": "ground",
+      "from": "ground-n-305-525",
+      "to": "ground-n-305-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-17",
+      "floorId": "ground",
+      "from": "ground-n-505-130",
+      "to": "ground-n-505-210",
+      "computedLengthMeters": 8.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-18",
+      "floorId": "ground",
+      "from": "ground-n-505-210",
+      "to": "ground-n-505-350",
+      "computedLengthMeters": 14.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-19",
+      "floorId": "ground",
+      "from": "ground-n-505-350",
+      "to": "ground-n-505-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-20",
+      "floorId": "ground",
+      "from": "ground-n-505-525",
+      "to": "ground-n-505-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-21",
+      "floorId": "ground",
+      "from": "ground-n-505-680",
+      "to": "ground-n-505-800",
+      "computedLengthMeters": 12.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-22",
+      "floorId": "ground",
+      "from": "ground-n-675-210",
+      "to": "ground-n-675-350",
+      "computedLengthMeters": 14.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-23",
+      "floorId": "ground",
+      "from": "ground-n-675-350",
+      "to": "ground-n-675-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-24",
+      "floorId": "ground",
+      "from": "ground-n-675-525",
+      "to": "ground-n-675-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-25",
+      "floorId": "ground",
+      "from": "ground-n-675-680",
+      "to": "ground-n-675-800",
+      "computedLengthMeters": 12.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-26",
+      "floorId": "ground",
+      "from": "ground-n-915-210",
+      "to": "ground-n-915-350",
+      "computedLengthMeters": 14.0,
+      "demo": true
+    },
+    {
+      "id": "ground-e-27",
+      "floorId": "ground",
+      "from": "ground-n-915-350",
+      "to": "ground-n-915-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-28",
+      "floorId": "ground",
+      "from": "ground-n-915-525",
+      "to": "ground-n-915-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "ground-e-29",
+      "floorId": "ground",
+      "from": "ground-n-915-680",
+      "to": "ground-n-915-840",
+      "computedLengthMeters": 16.0,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-01",
+      "floorId": "ground",
+      "from": "ground-n-175-350",
+      "to": "ground-door-G-01",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-02",
+      "floorId": "ground",
+      "from": "ground-n-175-620",
+      "to": "ground-door-G-02",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-03",
+      "floorId": "ground",
+      "from": "ground-n-305-250",
+      "to": "ground-door-G-03",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-04",
+      "floorId": "ground",
+      "from": "ground-n-305-350",
+      "to": "ground-door-G-04",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-05",
+      "floorId": "ground",
+      "from": "ground-n-505-130",
+      "to": "ground-door-G-05",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-06",
+      "floorId": "ground",
+      "from": "ground-n-675-210",
+      "to": "ground-door-G-06",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-07",
+      "floorId": "ground",
+      "from": "ground-n-915-210",
+      "to": "ground-door-G-07",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-08",
+      "floorId": "ground",
+      "from": "ground-n-915-350",
+      "to": "ground-door-G-08",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-09",
+      "floorId": "ground",
+      "from": "ground-n-505-800",
+      "to": "ground-door-G-09",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-G-10",
+      "floorId": "ground",
+      "from": "ground-n-675-800",
+      "to": "ground-door-G-10",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-STAIR-E-G",
+      "floorId": "ground",
+      "from": "ground-n-915-525",
+      "to": "ground-door-STAIR-E-G",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-STAIR-W-G",
+      "floorId": "ground",
+      "from": "ground-n-305-525",
+      "to": "ground-door-STAIR-W-G",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-ELEV-1-G",
+      "floorId": "ground",
+      "from": "ground-n-505-525",
+      "to": "ground-door-ELEV-1-G",
+      "computedLengthMeters": 3.54,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-WC-M-G",
+      "floorId": "ground",
+      "from": "ground-n-305-680",
+      "to": "ground-door-WC-M-G",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-WC-W-G",
+      "floorId": "ground",
+      "from": "ground-n-675-680",
+      "to": "ground-door-WC-W-G",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-PRAYER-G",
+      "floorId": "ground",
+      "from": "ground-n-675-525",
+      "to": "ground-door-PRAYER-G",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-ENT-MAIN",
+      "floorId": "ground",
+      "from": "ground-n-915-840",
+      "to": "ground-door-ENT-MAIN",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "ground-edoor-ENT-WEST",
+      "floorId": "ground",
+      "from": "ground-n-175-525",
+      "to": "ground-door-ENT-WEST",
+      "computedLengthMeters": 4.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-1",
+      "floorId": "first",
+      "from": "first-n-505-210",
+      "to": "first-n-675-210",
+      "computedLengthMeters": 17.0,
+      "demo": true,
+      "manualLengthMeters": 17.0
+    },
+    {
+      "id": "first-e-2",
+      "floorId": "first",
+      "from": "first-n-675-210",
+      "to": "first-n-915-210",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-3",
+      "floorId": "first",
+      "from": "first-n-305-350",
+      "to": "first-n-505-350",
+      "computedLengthMeters": 20.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-4",
+      "floorId": "first",
+      "from": "first-n-675-350",
+      "to": "first-n-915-350",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-5",
+      "floorId": "first",
+      "from": "first-n-175-525",
+      "to": "first-n-305-525",
+      "computedLengthMeters": 13.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-6",
+      "floorId": "first",
+      "from": "first-n-305-525",
+      "to": "first-n-505-525",
+      "computedLengthMeters": 20.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-7",
+      "floorId": "first",
+      "from": "first-n-505-525",
+      "to": "first-n-675-525",
+      "computedLengthMeters": 17.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-8",
+      "floorId": "first",
+      "from": "first-n-675-525",
+      "to": "first-n-915-525",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-9",
+      "floorId": "first",
+      "from": "first-n-305-680",
+      "to": "first-n-505-680",
+      "computedLengthMeters": 20.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-10",
+      "floorId": "first",
+      "from": "first-n-505-680",
+      "to": "first-n-675-680",
+      "computedLengthMeters": 17.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-11",
+      "floorId": "first",
+      "from": "first-n-675-680",
+      "to": "first-n-915-680",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-12",
+      "floorId": "first",
+      "from": "first-n-175-350",
+      "to": "first-n-175-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-13",
+      "floorId": "first",
+      "from": "first-n-175-525",
+      "to": "first-n-175-620",
+      "computedLengthMeters": 9.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-14",
+      "floorId": "first",
+      "from": "first-n-305-250",
+      "to": "first-n-305-350",
+      "computedLengthMeters": 10.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-15",
+      "floorId": "first",
+      "from": "first-n-305-350",
+      "to": "first-n-305-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-16",
+      "floorId": "first",
+      "from": "first-n-305-525",
+      "to": "first-n-305-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-17",
+      "floorId": "first",
+      "from": "first-n-505-130",
+      "to": "first-n-505-210",
+      "computedLengthMeters": 8.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-18",
+      "floorId": "first",
+      "from": "first-n-505-210",
+      "to": "first-n-505-350",
+      "computedLengthMeters": 14.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-19",
+      "floorId": "first",
+      "from": "first-n-505-350",
+      "to": "first-n-505-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-20",
+      "floorId": "first",
+      "from": "first-n-505-525",
+      "to": "first-n-505-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-21",
+      "floorId": "first",
+      "from": "first-n-505-680",
+      "to": "first-n-505-800",
+      "computedLengthMeters": 12.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-22",
+      "floorId": "first",
+      "from": "first-n-675-210",
+      "to": "first-n-675-350",
+      "computedLengthMeters": 14.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-23",
+      "floorId": "first",
+      "from": "first-n-675-350",
+      "to": "first-n-675-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-24",
+      "floorId": "first",
+      "from": "first-n-675-525",
+      "to": "first-n-675-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-25",
+      "floorId": "first",
+      "from": "first-n-675-680",
+      "to": "first-n-675-800",
+      "computedLengthMeters": 12.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-26",
+      "floorId": "first",
+      "from": "first-n-915-210",
+      "to": "first-n-915-350",
+      "computedLengthMeters": 14.0,
+      "demo": true
+    },
+    {
+      "id": "first-e-27",
+      "floorId": "first",
+      "from": "first-n-915-350",
+      "to": "first-n-915-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-28",
+      "floorId": "first",
+      "from": "first-n-915-525",
+      "to": "first-n-915-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "first-e-29",
+      "floorId": "first",
+      "from": "first-n-915-680",
+      "to": "first-n-915-840",
+      "computedLengthMeters": 16.0,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-01",
+      "floorId": "first",
+      "from": "first-n-175-350",
+      "to": "first-door-F1-01",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-02",
+      "floorId": "first",
+      "from": "first-n-175-620",
+      "to": "first-door-F1-02",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-03",
+      "floorId": "first",
+      "from": "first-n-305-250",
+      "to": "first-door-F1-03",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-04",
+      "floorId": "first",
+      "from": "first-n-305-350",
+      "to": "first-door-F1-04",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-05",
+      "floorId": "first",
+      "from": "first-n-505-130",
+      "to": "first-door-F1-05",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-06",
+      "floorId": "first",
+      "from": "first-n-675-210",
+      "to": "first-door-F1-06",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-07",
+      "floorId": "first",
+      "from": "first-n-915-210",
+      "to": "first-door-F1-07",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-08",
+      "floorId": "first",
+      "from": "first-n-915-350",
+      "to": "first-door-F1-08",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-09",
+      "floorId": "first",
+      "from": "first-n-505-800",
+      "to": "first-door-F1-09",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-F1-10",
+      "floorId": "first",
+      "from": "first-n-675-800",
+      "to": "first-door-F1-10",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-STAIR-E-F1",
+      "floorId": "first",
+      "from": "first-n-915-525",
+      "to": "first-door-STAIR-E-F1",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-STAIR-W-F1",
+      "floorId": "first",
+      "from": "first-n-305-525",
+      "to": "first-door-STAIR-W-F1",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-ELEV-1-F1",
+      "floorId": "first",
+      "from": "first-n-505-525",
+      "to": "first-door-ELEV-1-F1",
+      "computedLengthMeters": 3.54,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-WC-M-F1",
+      "floorId": "first",
+      "from": "first-n-305-680",
+      "to": "first-door-WC-M-F1",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "first-edoor-WC-W-F1",
+      "floorId": "first",
+      "from": "first-n-675-680",
+      "to": "first-door-WC-W-F1",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-1",
+      "floorId": "second",
+      "from": "second-n-505-210",
+      "to": "second-n-675-210",
+      "computedLengthMeters": 17.0,
+      "demo": true,
+      "manualLengthMeters": 17.0
+    },
+    {
+      "id": "second-e-2",
+      "floorId": "second",
+      "from": "second-n-675-210",
+      "to": "second-n-915-210",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-3",
+      "floorId": "second",
+      "from": "second-n-305-350",
+      "to": "second-n-505-350",
+      "computedLengthMeters": 20.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-4",
+      "floorId": "second",
+      "from": "second-n-675-350",
+      "to": "second-n-915-350",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-5",
+      "floorId": "second",
+      "from": "second-n-175-525",
+      "to": "second-n-305-525",
+      "computedLengthMeters": 13.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-6",
+      "floorId": "second",
+      "from": "second-n-305-525",
+      "to": "second-n-505-525",
+      "computedLengthMeters": 20.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-7",
+      "floorId": "second",
+      "from": "second-n-505-525",
+      "to": "second-n-675-525",
+      "computedLengthMeters": 17.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-8",
+      "floorId": "second",
+      "from": "second-n-675-525",
+      "to": "second-n-915-525",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-9",
+      "floorId": "second",
+      "from": "second-n-305-680",
+      "to": "second-n-505-680",
+      "computedLengthMeters": 20.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-10",
+      "floorId": "second",
+      "from": "second-n-505-680",
+      "to": "second-n-675-680",
+      "computedLengthMeters": 17.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-11",
+      "floorId": "second",
+      "from": "second-n-675-680",
+      "to": "second-n-915-680",
+      "computedLengthMeters": 24.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-12",
+      "floorId": "second",
+      "from": "second-n-175-350",
+      "to": "second-n-175-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-13",
+      "floorId": "second",
+      "from": "second-n-175-525",
+      "to": "second-n-175-620",
+      "computedLengthMeters": 9.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-14",
+      "floorId": "second",
+      "from": "second-n-305-250",
+      "to": "second-n-305-350",
+      "computedLengthMeters": 10.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-15",
+      "floorId": "second",
+      "from": "second-n-305-350",
+      "to": "second-n-305-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-16",
+      "floorId": "second",
+      "from": "second-n-305-525",
+      "to": "second-n-305-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-17",
+      "floorId": "second",
+      "from": "second-n-505-130",
+      "to": "second-n-505-210",
+      "computedLengthMeters": 8.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-18",
+      "floorId": "second",
+      "from": "second-n-505-210",
+      "to": "second-n-505-350",
+      "computedLengthMeters": 14.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-19",
+      "floorId": "second",
+      "from": "second-n-505-350",
+      "to": "second-n-505-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-20",
+      "floorId": "second",
+      "from": "second-n-505-525",
+      "to": "second-n-505-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-21",
+      "floorId": "second",
+      "from": "second-n-505-680",
+      "to": "second-n-505-800",
+      "computedLengthMeters": 12.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-22",
+      "floorId": "second",
+      "from": "second-n-675-210",
+      "to": "second-n-675-350",
+      "computedLengthMeters": 14.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-23",
+      "floorId": "second",
+      "from": "second-n-675-350",
+      "to": "second-n-675-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-24",
+      "floorId": "second",
+      "from": "second-n-675-525",
+      "to": "second-n-675-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-25",
+      "floorId": "second",
+      "from": "second-n-675-680",
+      "to": "second-n-675-800",
+      "computedLengthMeters": 12.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-26",
+      "floorId": "second",
+      "from": "second-n-915-210",
+      "to": "second-n-915-350",
+      "computedLengthMeters": 14.0,
+      "demo": true
+    },
+    {
+      "id": "second-e-27",
+      "floorId": "second",
+      "from": "second-n-915-350",
+      "to": "second-n-915-525",
+      "computedLengthMeters": 17.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-28",
+      "floorId": "second",
+      "from": "second-n-915-525",
+      "to": "second-n-915-680",
+      "computedLengthMeters": 15.5,
+      "demo": true
+    },
+    {
+      "id": "second-e-29",
+      "floorId": "second",
+      "from": "second-n-915-680",
+      "to": "second-n-915-840",
+      "computedLengthMeters": 16.0,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-01",
+      "floorId": "second",
+      "from": "second-n-175-350",
+      "to": "second-door-F2-01",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-02",
+      "floorId": "second",
+      "from": "second-n-175-620",
+      "to": "second-door-F2-02",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-03",
+      "floorId": "second",
+      "from": "second-n-305-250",
+      "to": "second-door-F2-03",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-04",
+      "floorId": "second",
+      "from": "second-n-305-350",
+      "to": "second-door-F2-04",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-05",
+      "floorId": "second",
+      "from": "second-n-505-130",
+      "to": "second-door-F2-05",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-06",
+      "floorId": "second",
+      "from": "second-n-675-210",
+      "to": "second-door-F2-06",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-07",
+      "floorId": "second",
+      "from": "second-n-915-210",
+      "to": "second-door-F2-07",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-08",
+      "floorId": "second",
+      "from": "second-n-915-350",
+      "to": "second-door-F2-08",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-09",
+      "floorId": "second",
+      "from": "second-n-505-800",
+      "to": "second-door-F2-09",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-F2-10",
+      "floorId": "second",
+      "from": "second-n-675-800",
+      "to": "second-door-F2-10",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-STAIR-E-F2",
+      "floorId": "second",
+      "from": "second-n-915-525",
+      "to": "second-door-STAIR-E-F2",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-STAIR-W-F2",
+      "floorId": "second",
+      "from": "second-n-305-525",
+      "to": "second-door-STAIR-W-F2",
+      "computedLengthMeters": 3.0,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-ELEV-1-F2",
+      "floorId": "second",
+      "from": "second-n-505-525",
+      "to": "second-door-ELEV-1-F2",
+      "computedLengthMeters": 3.54,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-WC-M-F2",
+      "floorId": "second",
+      "from": "second-n-305-680",
+      "to": "second-door-WC-M-F2",
+      "computedLengthMeters": 2.5,
+      "demo": true
+    },
+    {
+      "id": "second-edoor-WC-W-F2",
+      "floorId": "second",
+      "from": "second-n-675-680",
+      "to": "second-door-WC-W-F2",
+      "computedLengthMeters": 2.5,
       "demo": true
     }
   ],
   "facilities": [
     {
       "code": "G-01",
-      "name": "قاعة تجريبية 1",
       "type": "room",
+      "name": "قاعة دراسية G-01",
       "floorId": "ground",
+      "nodeId": "ground-door-G-01",
+      "demo": true
+    },
+    {
+      "code": "G-02",
+      "type": "room",
+      "name": "قاعة دراسية G-02",
+      "floorId": "ground",
+      "nodeId": "ground-door-G-02",
+      "demo": true
+    },
+    {
+      "code": "G-03",
+      "type": "room",
+      "name": "معمل هندسي G-03",
+      "floorId": "ground",
+      "nodeId": "ground-door-G-03",
+      "demo": true
+    },
+    {
+      "code": "G-04",
+      "type": "room",
+      "name": "قاعة دراسية G-04",
+      "floorId": "ground",
+      "nodeId": "ground-door-G-04",
+      "demo": true
+    },
+    {
+      "code": "G-05",
+      "type": "room",
+      "name": "قاعة محاضرات G-05",
+      "floorId": "ground",
+      "nodeId": "ground-door-G-05",
+      "demo": true
+    },
+    {
+      "code": "G-06",
+      "type": "room",
+      "name": "معمل حاسب G-06",
+      "floorId": "ground",
+      "nodeId": "ground-door-G-06",
+      "demo": true
+    },
+    {
+      "code": "G-07",
+      "type": "room",
+      "name": "قاعة دراسية G-07",
+      "floorId": "ground",
+      "nodeId": "ground-door-G-07",
+      "demo": true
+    },
+    {
+      "code": "G-08",
+      "type": "room",
+      "name": "قاعة ندوات G-08",
+      "floorId": "ground",
+      "nodeId": "ground-door-G-08",
+      "demo": true
+    },
+    {
+      "code": "G-09",
+      "type": "office",
+      "name": "مكتب عضو هيئة تدريس G-09",
+      "floorId": "ground",
+      "nodeId": "ground-door-G-09",
+      "demo": true
+    },
+    {
+      "code": "G-10",
+      "type": "office",
+      "name": "مكتب عضو هيئة تدريس G-10",
+      "floorId": "ground",
+      "nodeId": "ground-door-G-10",
+      "demo": true
+    },
+    {
+      "code": "STAIR-E-G",
+      "type": "stairs",
+      "name": "درج-شرق",
+      "floorId": "ground",
+      "nodeId": "ground-door-STAIR-E-G",
+      "demo": true,
+      "connectorGroup": "درج-شرق"
+    },
+    {
+      "code": "STAIR-W-G",
+      "type": "stairs",
+      "name": "درج-غرب",
+      "floorId": "ground",
+      "nodeId": "ground-door-STAIR-W-G",
+      "demo": true,
+      "connectorGroup": "درج-غرب"
+    },
+    {
+      "code": "ELEV-1-G",
+      "type": "elevator",
+      "name": "مصعد-1",
+      "floorId": "ground",
+      "nodeId": "ground-door-ELEV-1-G",
+      "demo": true,
+      "connectorGroup": "مصعد-1"
+    },
+    {
+      "code": "WC-M-G",
+      "type": "wc_men",
+      "name": "دورة مياه رجال (الدور الأرضي)",
+      "floorId": "ground",
+      "nodeId": "ground-door-WC-M-G",
+      "demo": true
+    },
+    {
+      "code": "WC-W-G",
+      "type": "wc_women",
+      "name": "دورة مياه نساء (الدور الأرضي)",
+      "floorId": "ground",
+      "nodeId": "ground-door-WC-W-G",
+      "demo": true
+    },
+    {
+      "code": "PRAYER-G",
+      "type": "prayer",
+      "name": "المصلى الرئيسي",
+      "floorId": "ground",
+      "nodeId": "ground-door-PRAYER-G",
+      "demo": true
+    },
+    {
+      "code": "ENT-MAIN",
+      "type": "entrance",
+      "name": "المدخل الرئيسي (الجنوبي الشرقي)",
+      "floorId": "ground",
+      "nodeId": "ground-door-ENT-MAIN",
+      "demo": true
+    },
+    {
+      "code": "ENT-WEST",
+      "type": "entrance",
+      "name": "المدخل الغربي",
+      "floorId": "ground",
+      "nodeId": "ground-door-ENT-WEST",
+      "demo": true
+    },
+    {
+      "code": "F1-01",
+      "type": "room",
+      "name": "قاعة دراسية F1-01",
+      "floorId": "first",
+      "nodeId": "first-door-F1-01",
+      "demo": true
+    },
+    {
+      "code": "F1-02",
+      "type": "room",
+      "name": "قاعة دراسية F1-02",
+      "floorId": "first",
+      "nodeId": "first-door-F1-02",
+      "demo": true
+    },
+    {
+      "code": "F1-03",
+      "type": "room",
+      "name": "معمل هندسي F1-03",
+      "floorId": "first",
+      "nodeId": "first-door-F1-03",
+      "demo": true
+    },
+    {
+      "code": "F1-04",
+      "type": "room",
+      "name": "قاعة دراسية F1-04",
+      "floorId": "first",
+      "nodeId": "first-door-F1-04",
+      "demo": true
+    },
+    {
+      "code": "F1-05",
+      "type": "room",
+      "name": "قاعة محاضرات F1-05",
+      "floorId": "first",
+      "nodeId": "first-door-F1-05",
+      "demo": true
+    },
+    {
+      "code": "F1-06",
+      "type": "room",
+      "name": "معمل حاسب F1-06",
+      "floorId": "first",
+      "nodeId": "first-door-F1-06",
+      "demo": true
+    },
+    {
+      "code": "F1-07",
+      "type": "room",
+      "name": "قاعة دراسية F1-07",
+      "floorId": "first",
+      "nodeId": "first-door-F1-07",
+      "demo": true
+    },
+    {
+      "code": "F1-08",
+      "type": "room",
+      "name": "قاعة ندوات F1-08",
+      "floorId": "first",
+      "nodeId": "first-door-F1-08",
+      "demo": true
+    },
+    {
+      "code": "F1-09",
+      "type": "office",
+      "name": "مكتب عضو هيئة تدريس F1-09",
+      "floorId": "first",
+      "nodeId": "first-door-F1-09",
+      "demo": true
+    },
+    {
+      "code": "F1-10",
+      "type": "office",
+      "name": "مكتب عضو هيئة تدريس F1-10",
+      "floorId": "first",
+      "nodeId": "first-door-F1-10",
+      "demo": true
+    },
+    {
+      "code": "STAIR-E-F1",
+      "type": "stairs",
+      "name": "درج-شرق",
+      "floorId": "first",
+      "nodeId": "first-door-STAIR-E-F1",
+      "demo": true,
+      "connectorGroup": "درج-شرق"
+    },
+    {
+      "code": "STAIR-W-F1",
+      "type": "stairs",
+      "name": "درج-غرب",
+      "floorId": "first",
+      "nodeId": "first-door-STAIR-W-F1",
+      "demo": true,
+      "connectorGroup": "درج-غرب"
+    },
+    {
+      "code": "ELEV-1-F1",
+      "type": "elevator",
+      "name": "مصعد-1",
+      "floorId": "first",
+      "nodeId": "first-door-ELEV-1-F1",
+      "demo": true,
+      "connectorGroup": "مصعد-1"
+    },
+    {
+      "code": "WC-M-F1",
+      "type": "wc_men",
+      "name": "دورة مياه رجال (الدور الأول)",
+      "floorId": "first",
+      "nodeId": "first-door-WC-M-F1",
+      "demo": true
+    },
+    {
+      "code": "WC-W-F1",
+      "type": "wc_women",
+      "name": "دورة مياه نساء (الدور الأول)",
+      "floorId": "first",
+      "nodeId": "first-door-WC-W-F1",
+      "demo": true
+    },
+    {
+      "code": "F2-01",
+      "type": "room",
+      "name": "قاعة دراسية F2-01",
+      "floorId": "second",
+      "nodeId": "second-door-F2-01",
+      "demo": true
+    },
+    {
+      "code": "F2-02",
+      "type": "room",
+      "name": "قاعة دراسية F2-02",
+      "floorId": "second",
+      "nodeId": "second-door-F2-02",
+      "demo": true
+    },
+    {
+      "code": "F2-03",
+      "type": "room",
+      "name": "معمل هندسي F2-03",
+      "floorId": "second",
+      "nodeId": "second-door-F2-03",
+      "demo": true
+    },
+    {
+      "code": "F2-04",
+      "type": "room",
+      "name": "قاعة دراسية F2-04",
+      "floorId": "second",
+      "nodeId": "second-door-F2-04",
+      "demo": true
+    },
+    {
+      "code": "F2-05",
+      "type": "room",
+      "name": "قاعة محاضرات F2-05",
+      "floorId": "second",
+      "nodeId": "second-door-F2-05",
+      "demo": true
+    },
+    {
+      "code": "F2-06",
+      "type": "room",
+      "name": "معمل حاسب F2-06",
+      "floorId": "second",
+      "nodeId": "second-door-F2-06",
+      "demo": true
+    },
+    {
+      "code": "F2-07",
+      "type": "room",
+      "name": "قاعة دراسية F2-07",
+      "floorId": "second",
+      "nodeId": "second-door-F2-07",
+      "demo": true
+    },
+    {
+      "code": "F2-08",
+      "type": "room",
+      "name": "قاعة ندوات F2-08",
+      "floorId": "second",
+      "nodeId": "second-door-F2-08",
+      "demo": true
+    },
+    {
+      "code": "F2-09",
+      "type": "office",
+      "name": "مكتب عضو هيئة تدريس F2-09",
+      "floorId": "second",
+      "nodeId": "second-door-F2-09",
+      "demo": true
+    },
+    {
+      "code": "F2-10",
+      "type": "office",
+      "name": "مكتب عضو هيئة تدريس F2-10",
+      "floorId": "second",
+      "nodeId": "second-door-F2-10",
+      "demo": true
+    },
+    {
+      "code": "STAIR-E-F2",
+      "type": "stairs",
+      "name": "درج-شرق",
+      "floorId": "second",
+      "nodeId": "second-door-STAIR-E-F2",
+      "demo": true,
+      "connectorGroup": "درج-شرق"
+    },
+    {
+      "code": "STAIR-W-F2",
+      "type": "stairs",
+      "name": "درج-غرب",
+      "floorId": "second",
+      "nodeId": "second-door-STAIR-W-F2",
+      "demo": true,
+      "connectorGroup": "درج-غرب"
+    },
+    {
+      "code": "ELEV-1-F2",
+      "type": "elevator",
+      "name": "مصعد-1",
+      "floorId": "second",
+      "nodeId": "second-door-ELEV-1-F2",
+      "demo": true,
+      "connectorGroup": "مصعد-1"
+    },
+    {
+      "code": "WC-M-F2",
+      "type": "wc_men",
+      "name": "دورة مياه رجال (الدور الثاني)",
+      "floorId": "second",
+      "nodeId": "second-door-WC-M-F2",
+      "demo": true
+    },
+    {
+      "code": "WC-W-F2",
+      "type": "wc_women",
+      "name": "دورة مياه نساء (الدور الثاني)",
+      "floorId": "second",
+      "nodeId": "second-door-WC-W-F2",
+      "demo": true
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "lm-main-gate",
+      "name": "البوابة الرئيسية للكلية",
+      "floorId": "ground",
+      "nodeId": "ground-door-ENT-MAIN",
+      "demo": true
+    },
+    {
+      "id": "lm-west-gate",
+      "name": "البوابة الغربية",
+      "floorId": "ground",
+      "nodeId": "ground-door-ENT-WEST",
+      "demo": true
+    },
+    {
+      "id": "lm-prayer",
+      "name": "المصلى الرئيسي",
+      "floorId": "ground",
+      "nodeId": "ground-door-PRAYER-G",
+      "demo": true
+    },
+    {
+      "id": "lm-central-elev",
+      "name": "بهو المصعد المركزي",
+      "floorId": "ground",
+      "nodeId": "ground-n-505-525",
+      "demo": true
+    },
+    {
+      "id": "lm-first-labs",
+      "name": "جناح المعامل الشمالي (الدور الأول)",
+      "floorId": "first",
+      "nodeId": "first-n-675-210",
+      "demo": true
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc-1",
+      "name": "د. تجريبي أحمد المنصور",
+      "officeCode": "G-09",
+      "demo": true
+    },
+    {
+      "id": "doc-2",
+      "name": "د. تجريبي خالد العتيبي",
+      "officeCode": "G-10",
+      "demo": true
+    },
+    {
+      "id": "doc-3",
+      "name": "د. تجريبي سارة الزهراني",
+      "officeCode": "F1-09",
+      "demo": true
+    },
+    {
+      "id": "doc-4",
+      "name": "د. تجريبي فهد الشمري",
+      "officeCode": "F1-10",
+      "demo": true
+    },
+    {
+      "id": "doc-5",
+      "name": "د. تجريبي نورة القحطاني",
+      "officeCode": "F2-09",
+      "demo": true
+    },
+    {
+      "id": "doc-6",
+      "name": "د. تجريبي عبدالله السبيعي",
+      "officeCode": "F2-10",
       "demo": true
     }
   ]

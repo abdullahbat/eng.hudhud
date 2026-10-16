@@ -1,13 +1,14 @@
 {
   "name": "hudhud-engineering",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "check-maps": "python3 scripts/generate_demo_campus.py"
   },
   "devDependencies": {
     "typescript": "^5.4.0",

@@ -1,0 +1,17 @@
+{
+  "roomCodeSystem": {
+    "enabled": true,
+    "pattern": "^(G|F1|F2)-(\\d{2})$",
+    "description": "نظام تجريبي: بادئة الدور (G للأرضي، F1 للأول، F2 للثاني) متبوعة بشرطة ورقم القاعة من خانتين",
+    "floorPrefixMap": {
+      "G": "ground",
+      "F1": "first",
+      "F2": "second"
+    }
+  },
+  "routingCosts": {
+    "stairsMetersPerFloor": 15,
+    "elevatorMetersPerWait": 25
+  },
+  "reportIssueUrl": ""
+}
