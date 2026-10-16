@@ -6,7 +6,6 @@ import {
   LandmarkData,
   NodeData,
   Point2D,
-  getFloorMetersPerPixel,
 } from './validator';
 
 export type RouteStartInput =
@@ -77,7 +76,6 @@ export function snapPointToCorridor(
 } | null {
   const floor = data.floors.find((f) => f.id === floorId);
   if (!floor) return null;
-  const mpp = getFloorMetersPerPixel(floor) ?? 0.1;
 
   const nodesById = new Map<string, NodeData>();
   for (const n of data.nodes) {
