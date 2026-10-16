@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self';"
+    />
+    <title>هدهد الهندسة — معاينة الهوية والهدهد</title>
+    <link rel="icon" href="./icons/favicon.ico" sizes="any" />
+    <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="demo-banner" class="demo-banner" role="status" aria-live="polite" hidden>
+      نسخة تجريبية: البيانات ليست حقيقية
+    </div>
+    <main class="preview-page">
+      <header class="preview-header">
+        <h1 class="title">معاينة هوية هدهد الهندسة</h1>
+        <p class="subtitle" style="margin: 0 auto;">
+          مقارنة بين نموذجي «صواعق هادئة» و«صواعق أوضح» بالخلفيتين الفاتحة والداكنة (دورة حركة 7 ثوانٍ)
+        </p>
+      </header>
+
+      <section class="preview-grid" aria-label="نماذج حركة الهدهد">
+        <div class="preview-card theme-light" id="card-calm-light">
+          <div class="preview-card-title">نموذج 1: صواعق هادئة (خلفية فاتحة)</div>
+          <div class="preview-card-desc">ومضات كهربائية ناعمة وتوهج هادئ غير مبالغ فيه</div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="preview-card theme-dark" id="card-calm-dark">
+          <div class="preview-card-title">نموذج 1: صواعق هادئة (خلفية داكنة)</div>
+          <div class="preview-card-desc">ومضات كهربائية ناعمة وتوهج هادئ غير مبالغ فيه</div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="preview-card theme-light" id="card-vivid-light">
+          <div class="preview-card-title">نموذج 2: صواعق أوضح (خلفية فاتحة)</div>
+          <div class="preview-card-desc">صواعق أكثر سماكة مع توهج كهربائي أوضح</div>
+          <div class="slot"></div>
+        </div>
+
+        <div class="preview-card theme-dark" id="card-vivid-dark">
+          <div class="preview-card-title">نموذج 2: صواعق أوضح (خلفية داكنة)</div>
+          <div class="preview-card-desc">صواعق أكثر سماكة مع توهج كهربائي أوضح</div>
+          <div class="slot"></div>
+        </div>
+      </section>
+
+      <section class="preview-small-showcase" aria-label="الحجم الصغير لعلامة الوجهة">
+        <strong>الحجم الصغير (ثابت بدون حركة لعلامة الوجهة على الخريطة):</strong>
+        <div id="small-marker-slot"></div>
+      </section>
+
+      <div style="text-align: center; margin-top: 1.5rem;">
+        <a href="./index.html" class="preview-link">العودة إلى الصفحة الرئيسية</a>
+      </div>
+    </main>
+    <script type="module" src="./src/preview.ts"></script>
+  </body>
+</html>
