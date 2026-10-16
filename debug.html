@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self';"
+    />
+    <title>هدهد الهندسة — فحص محرك المسارات (debug)</title>
+    <link rel="icon" href="./icons/favicon.ico" sizes="any" />
+    <link rel="icon" href="./icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="demo-banner" class="demo-banner" role="status" aria-live="polite" hidden>
+      نسخة تجريبية: البيانات ليست حقيقية
+    </div>
+
+    <main class="debug-page">
+      <header class="debug-header">
+        <h1 class="title" style="font-size: 1.75rem;">فحص محرك المسارات (المرحلة 3 — debug.html)</h1>
+        <p class="subtitle" style="margin: 0 auto;">
+          اختر نقطة البداية والوجهة أو انقر مباشرة على الخريطة لرؤية أقصر مسار محسوب بخوارزمية Dijkstra والشرح الكتابي
+        </p>
+      </header>
+
+      <section class="debug-controls" aria-label="خيارات حساب المسار">
+        <div class="debug-field">
+          <label for="start-select">نقطة البداية (مرفق أو معلم أو نقر على الخريطة):</label>
+          <select id="start-select"></select>
+        </div>
+
+        <div class="debug-field">
+          <label for="dest-select">الوجهة المطلوبة:</label>
+          <select id="dest-select"></select>
+        </div>
+
+        <div class="debug-field debug-checkbox">
+          <label>
+            <input type="checkbox" id="prefer-elevator" />
+            أفضّل المصعد (تجنّب الدرج)
+          </label>
+        </div>
+
+        <button type="button" id="calc-btn" class="debug-btn">احسب المسار</button>
+      </section>
+
+      <section class="debug-output" id="debug-output" aria-live="polite">
+        <div class="debug-summary-card">
+          <div class="debug-distance-badge" id="total-distance-badge">المسافة الكلية: —</div>
+          <p class="debug-description" id="full-description-text"></p>
+          <div class="debug-segment-tabs" id="segment-tabs"></div>
+        </div>
+
+        <div class="debug-map-wrapper">
+          <div class="debug-map-hint">
+            💡 يمكنك أيضاً النقر في أي مكان على الخريطة لتعيينه كنقطة بداية مباشرة
+          </div>
+          <div class="debug-canvas-stage" id="map-stage">
+            <img id="debug-floor-img" alt="خريطة الدور" />
+            <svg id="debug-route-svg" viewBox="0 0 1000 1000"></svg>
+          </div>
+          <div class="debug-steps-box">
+            <strong>خطوات هذا الدور:</strong>
+            <ol id="segment-steps-list"></ol>
+          </div>
+        </div>
+      </section>
+
+      <div style="text-align: center; margin-top: 1.5rem;">
+        <a href="./index.html" class="preview-link">العودة إلى الصفحة الرئيسية</a>
+      </div>
+    </main>
+
+    <script type="module" src="./src/debug.ts"></script>
+  </body>
+</html>

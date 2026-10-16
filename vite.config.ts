@@ -7,7 +7,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',
-        preview: 'preview.html'
+        preview: 'preview.html',
+        debug: 'debug.html'
       }
     }
   }
